@@ -4,4 +4,4 @@ This repo contains the code behind the a simple python based webapplcation "sill
 => Cloud infra provisioning automation using python + Gcloud
 => Build a light wieght applicaiton using GCP's "Cloud run" for containers and "Cloud SQL" for the backend data
 => Cloud build automation cloud build (Docker and Gcloud builders)
-=> Terraform code (optional and abitious)
+
