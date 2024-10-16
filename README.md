@@ -1,4 +1,4 @@
-# **Cloud Infrastructure Automation with GCP: VPC, Cloud SQL, Cloud Run, and CI/CD ![image](https://github.com/user-attachments/assets/ead6d077-a36b-4262-90ed-3a4164bb9d2a)
+# **Cloud Infrastructure Automation with GCP: VPC, Cloud SQL, Cloud Run, and CI/CD 🚀 **
  **
 
 This project showcases **cloud infrastructure automation** using **Google Cloud Platform (GCP)** services such as **VPC networks, Cloud SQL**, and **Cloud Run**, with an emphasis on **private connectivity and security** through SQL Proxy. The project also integrates **CI/CD pipelines** using **Cloud Build**, **Artifact Registry**, and **Cloud Deploy** to automate web application deployments.
@@ -17,10 +17,10 @@ This project automates the following tasks using **Python scripts** (to be trans
 3. **SQL Proxy Setup for Private Connections**:  
    - Automate the creation of a **Cloud SQL Proxy instance** and configure **firewalls and NAT routing** to manage secure access.
 
-4. **Web Application Deployment on Cloud Run**:  
+4. **Web Application Deployment on Cloud Run** (In progress):  
    - Build and deploy **Dockerized applications** to **Cloud Run**, integrating with **Cloud SQL** for data persistence.
 
-5. **CI/CD Pipeline Implementation**:  
+5. **CI/CD Pipeline Implementation** (In-progress)):  
    - Automate the deployment workflow using **Cloud Build**, **Artifact Registry**, and **Cloud Deploy** to enable continuous delivery of the web application.
 
 ---
