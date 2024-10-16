@@ -17,7 +17,7 @@ EXPOSE 8080
 ENV DB_USER=sqladmin
 ENV DB_PASSWORD=admin
 ENV DB_NAME=world_metrics
-ENV DB_HOST=192.168.0.21 
+ENV DB_HOST=<PRIVATE>
 
 # Run the application
 CMD ["python", "app.py"]

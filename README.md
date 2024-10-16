@@ -99,5 +99,7 @@ SILLYGULLY_WEBAPP_PROJECT/
 
 ---
 
-## **Author**  
-**Bhanu Koduri**  
+
+Author
+Bhanu Koduri
+
