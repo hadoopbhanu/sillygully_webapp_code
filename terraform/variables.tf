@@ -1,26 +1,21 @@
-variable "project_name" {
-  description = "The name of the GCP project"
-  type        = string
-}
-
 variable "vpc_name" {
-  description = "The name of the VPC network"
+  description = "Name of the VPC"
   type        = string
 }
 
-variable "subnet1_name" {
-  description = "The name of the first subnet"
+variable "project_name" {
+  description = "GCP Project ID"
   type        = string
 }
 
-variable "subnet2_name" {
-  description = "The name of the second subnet"
-  type        = string
+variable "subnet_names" {
+  description = "List of subnet names"
+  type        = list(string)
 }
 
-variable "subnet1_range" {
-  description = "The IP range of the first subnet"
-  type        = string
+variable "subnet_cidrs" {
+  description = "List of CIDR ranges for the subnets"
+  type        = list(string)
 }
 
 variable "subnet2_range" {

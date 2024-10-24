@@ -10,18 +10,22 @@ variable "sql_admin_user" {}
 variable "sql_admin_pass" {}
 variable "sql_proxy_service_account" {}
 
-# VPC Network
+# VPC creation
 resource "google_compute_network" "vpc_network" {
-  name                    = var.vpc_name
+  name       = var.vpc_name
   auto_create_subnetworks = false
+  project    = var.project_name
 }
 
-# Subnet 1
-resource "google_compute_subnetwork" "subnet1" {
-  name          = var.subnet1_name
-  ip_cidr_range = var.subnet1_range
-  region        = "us-central1"
-  network       = google_compute_network.vpc_network.name
+# Subnets creation
+resource "google_compute_subnetwork" "subnets" {
+  count       = length(var.subnet_names)
+
+  name        = var.subnet_names[count.index]
+  ip_cidr_range = var.subnet_cidrs[count.index]
+  region      = "us-central1"  # You can hardcode or pass it via another variable
+  network     = google_compute_network.vpc_network.id
+  project     = var.project_name
 }
 
 # Subnet 2
