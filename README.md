@@ -70,8 +70,8 @@ SILLYGULLY_WEBAPP_PROJECT/
 ## **How to Run Locally**  
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/<your-username>/GCP_Cloud_Infrastructure_Project.git
-   cd GCP_Cloud_Infrastructure_Project
+   git clone https://github.com/hadoopbhanu/sillygully_webapp_code.git
+   cd GCP_sillygully_webapp_code
    ```
 
 2. **Set Up Environment Variables**:  
